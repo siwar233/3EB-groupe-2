@@ -1,0 +1,193 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*header code*/
+nav a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: #393939; 
+    height: 70px; 
+   width: 100%;
+   border-radius: 0px 0px 30px 30px;
+   position: fixed;
+   z-index: 999;
+   font-weight: bold;
+   
+}
+.navrightside{
+ position: relative;
+ left: 49%;
+ bottom: 10px;
+}
+#login{
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;  
+}
+#login:hover{
+    
+    border: 1px solid #f8a354;
+    color: #f8a354;
+
+}
+
+
+#becomemember{
+    background-color: #F8A354;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+#becomemember:hover{
+    background: #f68923;
+    color: #fff;
+}
+#becomeguide{
+    background-color: #F8A354;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+#becomeguide:hover{
+    background: #f68923;
+    color: #fff;
+}
+
+
+.divnav{
+    padding: 15px;
+}
+.logo{
+    height: 35px;
+    
+}
+
+.aboutus{
+   padding-top:100px;
+    
+}
+.ktibaabout{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1{
+    color: #393939;
+}
+.textcolororang{
+    color: #F8A354;
+}
+h3{
+    color: #F8A354;
+}
+
+/* code css footer */
+footer{
+    padding-top: 50px;
+    background-color:#393939;
+    border-radius: 30px 30px 0px 0px;
+}
+.footerdisplay{
+    display: flex;
+    padding-bottom: 50px;
+}
+.labelnews{
+    padding-left: 70px;
+    color: #F8A354;
+}
+
+.news1{
+    display: flex;
+    padding-left: 60px;
+    align-items: center;
+    
+}
+
+.emialtextbox{
+    height: 50px;
+    width: 300px;
+    margin-top: 80px;
+    padding-top: 10px;
+}
+.emailbtnsend{
+border: 0;
+    color: #fff;
+    height: 50px;
+    width: 70px;
+    margin-top: 80px;
+    background-color: #F8A354;
+    border-radius: 0px 10px 10PX 0PX;
+    cursor: pointer;
+}
+.emailbtnsend:hover{
+    background-color: #f68923;
+}   
+.contactus{
+     margin-left: 140px;
+}
+.labelcontact{
+    padding-bottom: 30px;
+    color: #F8A354;
+}
+.input01{
+    border: 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    margin: 3px;
+}
+.input02{
+    border: 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    margin: 3px;
+}
+.inputsend{
+    border: 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    background-color:#F8A354;
+    cursor: pointer;
+}
+.inputsend:hover{
+    background-color: #f68923;
+}
+.CUSTOMIZED-LINKS{
+    margin-left: 140px;
+}
+.labellinks{
+    color: #F8A354;
+}
+.listepages{
+color: #fff;
+    padding-top: 60px;
+}
+.aDansli{
+    text-decoration: none;
+    color: white;
+    -webkit-transition: 0.3s ease-out;
+}
+.aDansli:hover{
+    margin-left: 20px;
+}
+  

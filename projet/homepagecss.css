@@ -1,0 +1,303 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*header code*/
+nav a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: #393939; 
+    height: 70px; 
+   width: 100%;
+   border-radius: 0px 0px 30px 30px;
+   position: fixed;
+   z-index: 999;
+   font-weight: bold;
+   
+}
+.navrightside{
+ position: relative;
+ left: 49%;
+ bottom: 10px;
+}
+#login{
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;  
+}
+#login:hover{
+    
+    border: 1px solid #f8a354;
+    color: #f8a354;
+
+}
+
+
+#becomemember{
+    background-color: #F8A354;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+#becomemember:hover{
+    background: #f68923;
+    color: #fff;
+}
+#becomeguide{
+    background-color: #F8A354;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+#becomeguide:hover{
+    background: #f68923;
+    color: #fff;
+}
+
+
+.divnav{
+    padding: 15px;
+}
+.logo{
+    height: 35px;
+    
+}
+.firstpage {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(latunizie.jpg) no-repeat ;
+    background-size: cover;
+   background-attachment: fixed;
+
+ }
+
+.divslog{
+    position: relative;
+    left: 7%;
+    top: 70px;
+    color: white;
+   
+
+}
+.divslog a{
+ position: relative;
+ left: 34%;
+ top: 15px;
+text-decoration: none;
+background-color: #f8a354;
+padding: 10px 20px 10px 20px;
+border-radius: 20px;
+color: white;
+width: 90px;
+font-weight: bold;
+}
+
+.page2{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.someplacesintunisia{
+    background-color:#393939;
+    color:#f8a354;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+
+/* code css footer */
+footer{
+    padding-top: 50px;
+    background-color:#393939;
+    border-radius: 30px 30px 0px 0px;
+}
+.footerdisplay{
+    display: flex;
+    padding-bottom: 50px;
+}
+.labelnews{
+    padding-left: 70px;
+    color: #F8A354;
+}
+
+.news1{
+    display: flex;
+    padding-left: 60px;
+    align-items: center;
+    
+}
+
+.emialtextbox{
+    height: 50px;
+    width: 300px;
+    margin-top: 80px;
+    padding-top: 10px;
+}
+.emailbtnsend{
+border: 0;
+    color: #fff;
+    height: 50px;
+    width: 70px;
+    margin-top: 80px;
+    background-color: #F8A354;
+    border-radius: 0px 10px 10PX 0PX;
+    cursor: pointer;
+}
+.emailbtnsend:hover{
+    background-color: #f68923;
+}   
+.contactus{
+     margin-left: 140px;
+}
+.labelcontact{
+    padding-bottom: 30px;
+    color: #F8A354;
+}
+.input01{
+    border: 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    margin: 3px;
+}
+.input02{
+    border: 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    margin: 3px;
+}
+.inputsend{
+    border: 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    background-color:#F8A354;
+    cursor: pointer;
+}
+.inputsend:hover{
+    background-color: #f68923;
+}
+.CUSTOMIZED-LINKS{
+    margin-left: 140px;
+}
+.labellinks{
+    color: #F8A354;
+}
+.listepages{
+color: #fff;
+    padding-top: 60px;
+}
+.aDansli{
+    text-decoration: none;
+    color: white;
+    -webkit-transition: 0.3s ease-out;
+}
+.aDansli:hover{
+    margin-left: 20px;
+}
+ .page-2{
+    padding-top: 10px;
+ } 
+ .ligne1{
+    display: flex;
+    margin-left: 8.7%;
+    margin-right: 8.7%;
+ }
+ .col-1{
+    width: 300px;
+    background-color: #393939;
+    border: 3px solid #F8A354;
+    border-radius: 10px;
+    margin-right: 50px;
+   
+ }
+
+.img1{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 280px;
+    height: 250px;
+}
+.discriptiontaswira{
+    padding: 10px;
+    color: #fff;
+}
+.titre-img{
+    margin-top: 8px;
+    color: #f68923;
+}
+.petitedisc{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:#393939;
+    color: #fff;
+
+    padding-bottom:15px ;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.booknowbtn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #F8A354;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+   
+}
+.booknowbtn:hover{
+    background-color: #ed7300;
+}
+.col-2{
+    width: 300px;
+    background-color: #747474;
+    border: 3px solid #F8A354;
+    border-radius: 10px;
+    margin-right: 50px;
+   
+ }
+ .price{
+    color: red;
+    background-color: #393939;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+ .ligne2{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 8.7%;
+    margin-right: 8.7%;
+ }
+ .booknowbtn-soldout{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    pointer-events: none;
+    cursor: default;
+   
+}
