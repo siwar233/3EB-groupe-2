@@ -1,0 +1,103 @@
+body {
+    font-family: Cursive, Cursive;
+    background-color: #EED5FD;
+}
+ h2 {
+    color: #CD5C5C;
+    text-align: center;
+    font-size: 60px;
+}
+h3 {
+    color: darkviolet;
+    text-align: center;
+    font-size: 60px ; 
+  
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+    text-align: center;
+    margin: 600px 600px 600px 600px;
+    font-size: 60px;
+}
+a:hover 
+{
+ text-decoration: underline ;
+ background-color:cornsilk ;
+ text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: #808080;
+}
+
+td {
+    border: 1px solid #808080;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+button {
+    cursor: wait;
+    background-color: #F0E68C;
+    border-color: #F0E68C;
+    text-align: center;
+    text-size-adjust: 50p;
+    margin: 10px 10px 10px 600px;
+}
+
+    button:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+          text-align: center;
+    }
+
+    button:focus {
+        box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.5);
+    }
+
+.form-label {
+    color: #343a40;
+}
+
+.form-control {
+    background-color: #F0E68C;
+    border-color: #ced4da;
+    color: #495057;
+    margin: 5px 5px 5px 600px;
+}
+
+    .form-control:focus {
+        box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+        border-color: #80bdff;
+        outline: none;
+    }
+
+.table {
+    background-color: #4B0082;
+}
+
+.table-dark td {
+    background-color: #C71585;
+    color: #DDA0DD;
+}
+
+    .table-dark td:hover {
+        background-color: #212529;
+    }
+
+.table-bordered td {
+    border: 2px solid #dee2e6;
+}
+
+    .table-bordered td:hover {
+        background-color: #f8f9
+    }
+
+
